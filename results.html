@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Marks</title>
+</head>
+<style>
+    table,tr,td,th{
+        border:1px solid black;
+        border-collapse: collapse;
+        
+        text-align: center;
+        
+    }
+    table{
+        width:50%;
+    }
+    th{
+        background-color:chocolate;
+    }
+</style>
+<body>
+	<h1>Student Marks</h1>
+	<form action="">
+		<label for="rollNumber">Roll Number:</label>
+		<input type="text" id="rollNumber" name="rollNumber"><br><br>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br><br>
+		<input type="submit" value="Submit">
+	</form>
+	<br>
+	<table>
+
+			<tr>
+                
+				<th>S.No</th>
+				
+				<th>Subject Title</th>
+				<th>Internal marks</th>
+                <th>External marks</th>
+                <th>Total marks</th>
+                <th>Grade</th>
+                
+
+			</tr>
+	
+		
+			<tr>
+                
+				<td >1</td>
+				
+				<td>English</td>
+				<td>28</td>
+                <td>61</td>
+                <td>89</td>
+                <td>B</td>
+                
+
+
+			</tr>
+			<tr>
+                <td>2</td>
+				<td>Maths</td>
+				<td>25</td>
+				<td>54</td>
+				<td>79</td>
+                <td>C</td>
+
+			</tr>
+			<tr>
+                <td>3</td>
+				<td>physics</td>
+				<td>29</td>
+				<td>62</td>
+				<td>91</td>
+                <td>A</td>
+
+			</tr>
+            <tr>
+                <td>4</td>
+				<td>Chemistry</td>
+				<td>27</td>
+				<td>65</td>
+				<td>92</td>
+                <td>A</td>
+                
+			</tr>
+            <tr style="background-color: bisque;">
+                <td colspan="2" style="background-color:chocolate;">Total</td>
+                <td>109</td>
+                <td>331</td>
+                <td>351</td>
+                <td>B</td>
+				
+				
+                
+			</tr>
+		
+	</table>
+</body>
+</html>

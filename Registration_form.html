@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+  </head>
+  <body  style="margin-left: 60px;">
+    <h1>Course Registration</h1>
+    <form name="myForm" action="C:\Users\harsh\Downloads\login_page.html" method="post" onsubmit="return confirm('Are you sure you want to submit this form?')">
+      <label for="fname">First_Name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last_Name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="id">Roll number:</label>
+      <input type="text" id="id" name="id"><br><br>
+
+
+
+      <label for="gender">Gender:</label>
+
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender">
+
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender"><br><br>
+      
+      <label for="email">Email_id</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="dob">Date_Of_Birth:</label>
+      <input type="date" id="dob" name="dob"><br><br>
+
+      <label for="phone">Mobile_Number:</label>
+      <input type="text" id="phone" name="phone"><br><br>
+      <label for="password">password:</label>
+      <input type="password" id="password" name="password"><br><br>
+      <label for="subject">Select course:</label><br>
+      
+      <input type="radio" id="java" name="subject">
+      <label for="java">Java</label><br>
+      
+      <input type="radio" id="py" name="subject">
+      <label for="py">Python</label><br>
+      
+      <input type="radio" id="c#" name="subject">
+      <label for="c#">C#</label><br>
+      
+      <input type="radio" id="c++" name="subject">
+      <label for="c++">C++</label><br>  
+      
+      <input type="radio" id="c" name="subject">
+      <label for="c">C</label><br>
+      
+      <input type="radio" id="js" name="subject" >
+      <label for="js">Java Script</label><br>
+
+      <input type="submit" value="Register">
+      <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>
